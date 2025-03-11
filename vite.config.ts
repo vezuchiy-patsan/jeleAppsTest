@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/jeletest",
+  base: "/jeleAppsTest",
   plugins: [react()],
   resolve: {
     alias: [{ find: "@", replacement: path.resolve(__dirname, "src") }],
